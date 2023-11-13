@@ -1,5 +1,7 @@
 # py-earth-save
 
-Todo: Sometimes the pruner throws erros as it is about to get stuck in an infinite loop. Why?
+Todo:
 
-orthonormal update is still crashing with "Abort trap: 6" error likely meaning I am indexing out of an array or overfilling a string. Can I possibly run a debugger?
+Make the linear regression in forward pass faster: Use matrix math to iteratively update linear regressions rather than starting over each time
+
+Figure out a way to deal with multicolinearity issues without using SKLearn (as it is slow and cannot implement above fast method). 
